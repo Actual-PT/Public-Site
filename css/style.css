@@ -1,0 +1,43 @@
+/* Brand Colors:
+
+Main: #4A55A2
+Second: #7895CB
+Third: #A0BFE0
+Accent: #C5DFF8
+
+*/
+
+#main-logo{
+    height: 75px;
+    width: auto;
+}
+.nav-link:hover{
+    box-shadow: 2px 2px 5px rgba(33,33,33,.2);
+}
+.heading-blue{
+    color:#4A55A2 !important;
+}
+.subheading-blue{
+    color: #7895CB;
+}
+.tertiary-blue{
+    color: #A0BFE0;
+}
+.rounded-top-left{
+    border-top-left-radius: 1rem;
+}
+.about-image{
+    max-height: 250px;
+    max-width: auto;
+}
+
+@media (max-width: 767px){
+    #nav-list{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 15px;
+    }
+    footer{
+        font-size: .55rem;
+    }
+}
